@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Password Safe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+  </head>
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <h1 class="text-center">Password Safe</h1>
+                <h3 class="desc">The random password generator to keep your accounts safe</h3>
+            </header>
+            <div class="container">
+                <h2>Password Generator</h2>
+                <div class="result-container">
+                    <span id="result"></span>
+                </div>
+                <div class="settings">
+                    <div class="setting">
+                        <label>Password length</label>
+                        <input type="number" id="length" min='4' max='20' value='20' />
+                    </div>
+                    <div class="setting">
+                        <label>Include uppercase letters</label> 
+                        <input type="checkbox" id="uppercase" checked />
+                    </div>
+                    <div class="setting">
+                        <label>Include lowercase letters</label> 
+                        <input type="checkbox" id="lowercase" checked />
+                    </div>
+                    <div class="setting">
+                        <label>Include numbers</label> 
+                        <input type="checkbox" id="numbers" checked />
+                    </div>
+                    <div class="setting">
+                        <label>Include symbols</label> 
+                        <input type="checkbox" id="symbols" checked />
+                    </div>
+                </div>
+                <button class="btn btn-large" id="generate">
+                    Generate password
+                </button>
+            </div>
+
+            </div>
+
+
+
+        <footer>
+            <div class="footer">
+                <h4 class="ft-name">Copyright © MAD LABS LLC</h4>
+            </div>
+        </footer>
+        </div>
+        <script src="./assests/js/index.js" async defer></script>
+        
+    </body>
+</html>

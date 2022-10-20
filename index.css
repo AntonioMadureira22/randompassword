@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #faf0e6;
+    font-family: 'Silkscreen', cursive;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    
+    font-size: 40px;
+    color: transparent;
+    margin-right: 50px;
+    -webkit-background-clip: text;
+    background-size: 500%;
+    -webkit-background-size: 500%;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+    animation: animate 3s linear infinite ;
+}
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+p {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 10px 0 20px;
+	text-align: center;
+    background-color: #c4aead;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.container {
+	background-color: #c4aead;
+	box-shadow: 0px 2px 15px black;
+	padding: 20px;
+	width: 450px;
+	max-width: 100%;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.result-container {
+	background-color: #faf0e6;
+    color: black;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container #result {
+  	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
+
+
+.btn {
+	border: none;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 8px 12px;
+	background-color: #e5e4e2 ;
+}
+
+.btn-large {
+	display: block;
+	width: 100%;
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 70px;
+    background-color: #c4aead;
+}
+.ft-name{
+    background-color: #c4aead;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
