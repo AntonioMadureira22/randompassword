@@ -17,7 +17,6 @@ h1{
     align-items: center;
     justify-content: center;
     margin-top: 1%;
-    
     font-size: 40px;
     color: transparent;
     margin-right: 50px;
@@ -113,6 +112,15 @@ input[type=checkbox] {
     height: 70px;
     background-color: #c4aead;
 }
+.disclaimer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc3{
+    margin-top: 4%;
+    font-size: 10px;
+}
 .ft-name{
     background-color: #c4aead;
     font-size: 20px;
@@ -122,6 +130,21 @@ input[type=checkbox] {
 	.result-container {
 		font-size: 14px;
 	}
+    .text-center{
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .desc{
+        font-size: 15px;
+        text-align: center;
+    }
+    .desc3{
+        text-align: center;
+    }
+    .ft-name{
+        text-align: center;
+        font-size: 17px;
+    }
 }
 
 @keyframes animate{
